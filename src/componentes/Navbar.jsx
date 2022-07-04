@@ -1,6 +1,6 @@
 import React from "react";
 import './Navbar.css';
-
+import CartWidget from "./CartWidget";
 
 
 export const Navbar = () => {
@@ -12,6 +12,7 @@ export const Navbar = () => {
         <a href="/Productos">Productos</a>
         <a href="/Contacto">Contacto</a>
       </div>
+      <CartWidget />
     </div>
   )
 };
